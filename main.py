@@ -45,7 +45,7 @@ def upload_file():
 		# 	return resp
 		# else:
 		# 	print('have something')
-		file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+		# file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 		resp = jsonify([{"name":"Paracetamol","accuracy":"98","morning":"1","afternoon": "1","evening":"1","info":"abc."},{"name":"Panadol","accuracy":"60","morning":"1","afternoon": "0","evening":"1","info":"cdf"}])
 		# resp = jsonify(result)
 		resp.status_code = 201
