@@ -55,8 +55,10 @@ def upload_file():
 		resp.status_code = 400
 		return resp
 
+
 if __name__ == "__main__":
-    app.run()
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
 	# print("hello")
 	# app.run()
 
