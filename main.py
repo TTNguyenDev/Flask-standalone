@@ -9,9 +9,7 @@ import cv2
 import pytesseract
 import json
 
-
-
-pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
+# pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
