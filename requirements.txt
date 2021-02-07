@@ -3,3 +3,4 @@ Flask
 Pillow
 gunicorn
 waitress
+opencv-python
