@@ -1,1 +1,1 @@
-web: gunicorn main.py --log-file=-
+web: main.py --log-file=-
